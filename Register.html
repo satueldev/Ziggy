@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Signup</title>
+    
+</head>
+<body>
+    <h1>SIGNUP</h1>
+    <input type="text" id="text" name="text" placeholder="Full Name">
+    <br>
+    <br>
+    <input type="text" id="tel" name="tel" placeholder="phone or Email">
+ <a href="Home.html"><input type="button" id="btn" value="Proceed"></a>
+ <a href="Home.html"><input type="checkbox" id="chk"></a>
+    <p>By clicking Proceed you agree to Ziggy's <u>Terms & Conditions</u> and <u>Privacy Policy</u></p>
+    <style>
+        body{
+            background-color: rgb(83, 83, 187);
+            animation: 1s move;
+        }
+        h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 50px;
+            color: deepskyblue;
+            text-align: center;
+            
+        }
+        #text{
+            background-color: rgb(83, 83, 187);
+            height: 50px;
+            width: 250px;
+            border: 2px solid dodgerblue;
+            border-radius: 10px;
+            font-size: 25px;
+            outline: dodgerblue;
+            margin-left: 60px;
+            margin-top: 100px;
+            color: white;
+            text-align: center;
+        }
+        #tel{
+            background-color: rgb(83, 83, 187);
+            height: 50px;
+            width: 250px;
+            border: 2px solid dodgerblue;
+            border-radius: 10px;
+            font-size: 25px;
+            outline: dodgerblue;
+            margin-left: 60px;
+            margin-top: 30px;
+            color: white;
+            text-align: center;
+            
+        }
+        #btn{
+            height: 50px;
+            width: 200px;
+            background-color: deepskyblue;
+            border: none;
+            border-radius: 10px;
+            margin-top: 60px;
+            margin-left: 90px;
+            font-size: 25px;
+            color: white;
+        }
+        @keyframes move{
+            from{opacity: 0;}
+            to{opacity: 1;}
+        }
+        #btn:hover{
+            opacity: 0.8;
+            transition: 1s;
+        }
+       p{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-left: 30px;
+       }
+       #chk{
+        margin-left: -290px;
+        margin-top: 133px;
+        position: fixed;
+        height: 20px;
+        width: 20px;
+        border: none;
+       }
+    </style>
+</body>
+</html>
